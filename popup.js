@@ -9,7 +9,7 @@ const trackers = {
 const getWebsiteTrackers = (current) => {
     for (const tracker in trackers) {
         document.getElementById(tracker).innerHTML += ` ${
-      current.trackers[tracker] ? 'Tracks you! 😈' : 'Innocent for now 😇'
+      current.trackers[tracker] ? 'Tracks you!' : 'Innocent for now'
     }`
     }
 }
